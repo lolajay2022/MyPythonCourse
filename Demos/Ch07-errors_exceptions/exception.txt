@@ -1,0 +1,32 @@
+x = a + 42
+
+
+try:
+    # try block - write code that 
+    # might raise an exception here
+    <statement_1>
+    <statement_2>
+except ExceptionType: #dont use bare except 
+    # except block
+    # handle exception here
+    <handler>
+
+
+
+try:
+    # try block
+    # write code that might raise an exception here
+    <statement_1>
+    <statement_2>
+except <ExceptionType1>:
+    # except block
+    # handle ExceptionType1 here
+    <handler>
+except <ExceptionType2>:
+    # except block
+    # handle ExceptionType2 here
+    <handler>
+except:
+    # handle any type of exception here
+    <handler>
+
